@@ -46,7 +46,7 @@ def sendEmail(to ,content):
 #main
 if __name__ == "__main__":
     while True:
-        query = listen()
+        query = listen().lower()
 
         if "hello spicy" in query:
             speak("Hello Pranav!")
